@@ -1,5 +1,6 @@
 html { scroll-behavior: smooth; }
-body { margin:0; font-family:Verdana, Geneva, Tahoma, sans-serif;
+body { margin:0; font-family:Verdana;
+  font-style: italic;
 font-style:oblique; 
  background-color: #fbf4f6;}
 
