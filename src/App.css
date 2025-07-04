@@ -1,7 +1,7 @@
 html { scroll-behavior: smooth; }
 body { margin:0; font-family:cursive;
   font-style: italic;
-font-style:oblique; 
+
  background-color: #fbf4f6;}
 
 .active { border-bottom:2px solid #000; }

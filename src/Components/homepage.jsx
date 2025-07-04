@@ -10,19 +10,20 @@ export default function HomePage() {
   useEffect(() => { AOS.init({ duration: 1000, once: true }); }, []);
 
   const photos = ['/image1.jpg','/image2.jpg','/image3.jpg',
-                  '/image4.jpg','/image5.jpg','/image6.jpg'];
+                  '/image4.jpg','/image5.jpg','/image6.jpg','/image7.jpg','/image8.jpg','/image9.jpg','/image10.jpg','/image11.jpg','/image12.jpg','/image13.jpg','/image14.jpg','/image15.jpg'];
                   
   const masonryCols = { default: 3, 1100: 2, 700: 1 };
 
   return (
     <>
+    <div className='sectionClass'>
       <section id="hero" className="hero" data-aos="fade-in">
         <video autoPlay loop muted className="hero-video">
           <source src="/video.mp4" type="video/mp4" />
         </video>
         <div className="hero-content">
-          <h1>Capture Your Moments</h1>
-          <p>Wedding, Engagement, Portrait and more</p>
+          <h3>TIMELESS MOMENTS , MASTERFULLY CAPTURED</h3>
+          <p>explore the diverse range of photography project we have brought to life for our clients</p>
         </div>
       </section>
 
@@ -75,7 +76,7 @@ export default function HomePage() {
     </div>
   </div>
 </section>
-
+</div>
 
     </>
   );

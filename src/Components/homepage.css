@@ -1,10 +1,23 @@
 /* Hero with video overlay */
+.sectionClass{
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     padding:0;
+     margin:0;
+     height:100%;
+     width:100%;
+}
+
 .hero { position:relative;
      height:80vh; 
      display:flex;
       justify-content:center; 
       align-items:center;
        color:#fff; 
+       width:100%;
     }
 .hero-video { position:absolute; 
     top:0; 
@@ -29,8 +42,9 @@
       }
 
 .gallery {
-     padding:60px 20px;
+     padding:30px 20px;
      text-align:center; 
+      background: #ece0e0;
     }
     .gallery h1{
         font-size: 35px;
@@ -43,7 +57,7 @@
     padding-left:10px; 
 }
 .gallery-img { 
-    width:100%;
+    width:90%;
      margin-bottom:20px; 
      
      transition:transform .3s; 
@@ -72,7 +86,8 @@
     border-radius:10px; }
 
 .contact {
-  background: #f8f8f8;
+  width:100%;
+  background: #eadfdf;
   padding: 60px 20px;
   text-align: center;
 }
@@ -97,7 +112,7 @@
 }
 
 .contact-box {
-  background: rgb(237, 221, 221);
+  background: rgb(194, 164, 164);
   padding: 20px;
   border-radius: 8px;
   min-width: 240px;
@@ -105,6 +120,10 @@
   flex-direction: column;
   align-items: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition:transform .3s; 
+}
+.contact-box:hover{
+      transform:scale(1.05);
 }
 
 .contact-icon {
