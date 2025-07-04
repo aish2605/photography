@@ -24,7 +24,7 @@ export default function HomePage() {
         </video>
         <div className="hero-content">
           <h3>TIMELESS MOMENTS , MASTERFULLY CAPTURED</h3>
-          <p>explore the diverse range of photography project we have brought to life for our clients</p>
+         
         </div>
       </section>
 
