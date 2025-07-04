@@ -5,7 +5,7 @@ import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className="footer">
-      <h3 className="footer-logo">Prashant patil Photography</h3>
+      <h3 className="footer-logo">Prashant Patil Photography</h3>
       <div className="footer-socials">
         <a href="https://www.instagram.com/prashantpatilphotography?igsh=OWhkMWFwN2VpcGs4" target="_blank" rel="noreferrer">
           <FaInstagram />

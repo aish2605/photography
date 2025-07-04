@@ -10,7 +10,8 @@ export default function HomePage() {
   useEffect(() => { AOS.init({ duration: 1000, once: true }); }, []);
 
   const photos = ['/image1.jpg','/image2.jpg','/image3.jpg',
-                  '/image4.jpg','/image5.jpg','/image6.jpg','/image7.jpg','/image8.jpg','/image9.jpg','/image10.jpg','/image11.jpg','/image12.jpg','/image13.jpg','/image14.jpg','/image15.jpg'];
+                  '/image4.jpg','/image5.jpg','/image6.jpg','/image7.jpg','/image8.jpg','/image9.jpg',
+                  '/image10.jpg','/image11.jpg','/image12.jpg','/image13.jpg','/image14.jpg','/image15.jpg','/image16.jpg'];
                   
   const masonryCols = { default: 4, 1100: 2, 400: 2 };
 
