@@ -1,15 +1,5 @@
 /* Hero with video overlay */
-.sectionClass{
-     display: flex;
-     flex-direction: column;
-     flex-wrap: wrap;
-     align-items: center;
-     justify-content: center;
-     padding:0;
-     margin:0;
-     height:100%;
-     width:100%;
-}
+
 
 .hero { position:relative;
      height:80vh; 

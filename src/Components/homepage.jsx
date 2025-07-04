@@ -16,7 +16,7 @@ export default function HomePage() {
 
   return (
     <>
-    <div className='sectionClass'>
+  
       <section id="hero" className="hero" data-aos="fade-in">
         <video autoPlay loop muted className="hero-video">
           <source src="/video.mp4" type="video/mp4" />
@@ -76,7 +76,7 @@ export default function HomePage() {
     </div>
   </div>
 </section>
-</div>
+
 
     </>
   );
