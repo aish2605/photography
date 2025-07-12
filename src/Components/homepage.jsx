@@ -46,13 +46,27 @@ export default function HomePage() {
           ))}
         </Masonry>
       </section>
+<section id="about" className="about-section" data-aos="fade-right">
+  <div className="about-container no-wrap">
 
-      <section id="about" className="about" data-aos="fade-right">
-        <h1>About Us</h1>
-        <p>Prashant patil photography is a team of top candid wedding photographers and wedding filmers in India. Prashant patil photography is headed by prashant patil   who are one of the pioneers in the field of candid wedding photography in India.</p>
-<p>Prashant patil photography has a team of highly experienced and internationally acclaimed wedding photographers and cinematographers specialising in wedding photography in India. Prashant patil photography also offers luxury and lifestyle shoots including celebrity weddings, stylised bridal portraits, glamour portraits, creative pre-wedding and engagement shoot at off-beat locations.Over the years, We’ve worked with amazing people across the globe, been part of the biggest days of their lives and made everlasting memories for them. We look forward to creating some for you too!</p>
+    <div className="about-text">
+      <h1>About Us</h1>
+      <p><strong>Prashant Patil Photography</strong> is a team of top candid wedding photographers and filmmakers in India...
+      We specialize in luxury shoots, celebrity weddings, stylized portraits, and pre-wedding sessions..
+      We’ve worked with amazing clients worldwide and look forward to creating memories for you too!</p><p>
+      Prashant patil photography hasa team of highly experienced and internationally acclaimed wedding photographers and cinematographers specialising in wedding photography in India.
+       Prashant patil photography also offers luxury and lifestyle shoots including celebrity weddings, 
+       stylised bridal portraits, glamour portraits, creative pre-wedding and engagement shoot at off-beat locations.Over the years, 
+       We’ve worked with amazing people across the globe, been part of the biggest days of their lives and made everlasting memories for them. </p>
+    </div>
 
-      </section>
+    
+    <div className="about-image">
+      <img src="/image12.jpg" alt="Photography team" />
+    </div>
+  </div>
+</section>
+
 
       
 
