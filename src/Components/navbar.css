@@ -31,7 +31,10 @@
 }
 
 .nav-link:hover {
-  color: #de2ca3;
+  background-color: rgb(231, 168, 168);
+  border-radius: 30px;
+  padding: 5px;
+  
 }
 
 /* Hamburger Icon */

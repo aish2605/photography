@@ -61,63 +61,82 @@
  }
 
 
-
-    .about-section {
-  padding: 0px 20px;
-  background-color: #fff;
-  align-items: center;
-  justify-content: center;
-}
-
 .about-container {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  flex-wrap: nowrap;
+  gap: 1rem;
+  justify-content: center;
+  padding:0 20px;
 }
-
 
 .about-text {
   flex: 1;
-  min-width: 0;
+  padding: 2rem;
+  z-index: 2;
+  position: relative;
+  background-color: rgb(227, 204, 204);
+  align-items: center;
   justify-content: center;
- 
-  color:rgb(190, 121, 103)
-}
-.about-text h1{
-  color:rgb(159, 89, 75);
-  font-size: 30px;
-  font-weight:700;
 }
 
 .about-image {
   flex: 1;
-  min-width: 0;
-  height: 100%;
 }
 
 .about-image img {
-  width: 100%;
-  height: 100%;
-  border-radius: 12px;
-  object-fit: contain; 
-  max-height: 600px;    
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+
 }
 
-
-@media (max-width: 600px) {
+/*mobile */
+@media (max-width: 768px) {
   .about-container {
-    gap: 10px;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+    
   }
 
-  .about-text p {
-    font-size: 14px;
+  .about-image {
+    position: relative;
+    width: 100%;
+    height: 400px;
   }
 
   .about-image img {
-    max-height: 900px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0;
   }
+
+  .about-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(14, 13, 13, 0.378);
+    padding: 1rem;
+   height:100%;
+    width: 100%;
+    text-align: center;
+       padding: 1rem;
+  
+  }
+}
+.about-section{
+  background-color: white;
+}
+
+.about-text h1{
+  font-size: 40px;
+  font-weight: 400px;
 }
 
 
@@ -156,7 +175,7 @@
 
 .contact-box {
   background: rgb(194, 164, 164);
-  padding: 20px;
+  padding: 10px;
   border-radius: 8px;
   min-width: 240px;
   display: flex;
